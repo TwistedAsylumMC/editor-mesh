@@ -1,0 +1,16 @@
+{
+  "name": "editor-mesh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@minecraft/server": "1.1.0-beta.release.1.19.50",
+    "typescript": "^4.9.5"
+  }
+}

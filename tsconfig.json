@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+  
+    "target": "es2016",
+    "module": "ES2020",
+    "esModuleInterop": true,      
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "strict": true,                      
+    "skipLibCheck": true,
+    "paths": {
+      "@minecraft/server-editor": [ "./lib/server-editor-bindings" ]
+    }
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": ["node_modules/"]
+}
