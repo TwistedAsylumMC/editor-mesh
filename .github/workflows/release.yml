@@ -43,7 +43,7 @@ jobs:
 
       - name: Build script
         run: |
-          npx -y esbuild src/index.ts --bundle --outfile=mesh.js --packages=external
+          npx -y esbuild src/index.ts --bundle --outfile=mesh.js --packages=external --format=esm
 
       - name: Release script
         uses: ncipollo/release-action@v1
